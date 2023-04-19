@@ -1,5 +1,5 @@
 # Modbus MQTT Gateway Using STM32 and NodeMCU.
-## In this video we are creating an IoT applicaiton using two important IoT protocols-Modbus and MQTT.
+## In this video we are creating an IoT application using two important IoT protocols-Modbus and MQTT.
 ### Modbus Communication is implemented between STM32 Bluepill and NodeMCU. The NodeMCU publishes the Modbus data to a Mqtt server and also subscribes to a control message from the dashboard.The control message is forwarded to STM32 for actuation of relay.
 
  ![alt text](https://github.com/sarathtv/Modbus-Mqtt-Gateway/blob/master/FrontImage.jpg)
@@ -8,6 +8,7 @@
 - [Connection Diagram][dia]
 
 * Connection Details NodeMCU
+
 |     NodeMCU ESP8266 |     RS485 -TTL adapter |
 |:-------------------:|:----------------------:|
 |          D2         |           DI           |
@@ -19,6 +20,7 @@
 
 
 * Connection Details STM32 Bluepill
+
 |    STM32 BLUEPILL6 |    RS485 -TTL adapter | DHT11 | Relay |
 |:------------------:|:---------------------:|:-----:|-------|
 |         PA2        |           DI          |   x   |   x   |
